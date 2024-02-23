@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TC_0004_GiftCards">
+        <methods>
+          <include name="enterEmailofCustomer"/>
+          <include name="clickGiftCardsButton"/>
+          <include name="tearDown"/>
+          <include name="enteringPriceAmount"/>
+          <include name="enterAddressofCustomer"/>
+          <include name="selectBirthdayOrAnniversary"/>
+          <include name="enterMessageIfAny"/>
+          <include name="clickOnNextbtn"/>
+          <include name="enterEmailofRecipient"/>
+          <include name="enterNameofRecipient"/>
+          <include name="scrollDownToGiftsOptions"/>
+          <include name="enterPinofCustomerPin"/>
+          <include name="enterMobileofRecipient"/>
+          <include name="driverSetup"/>
+          <include name="enterMobileNumberofCustomer"/>
+          <include name="enterNameofCustomer"/>
+          <include name="clickOnConfirmbtn"/>
+          <include name="scrollPage"/>
+        </methods>
+      </class> <!-- testCases.TC_0004_GiftCards -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
