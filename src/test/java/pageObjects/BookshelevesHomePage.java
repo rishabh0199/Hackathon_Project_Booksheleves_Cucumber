@@ -1,5 +1,11 @@
 package pageObjects;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -7,10 +13,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
-import org.testng.annotations.Test;
-
 import testBase.BaseClass;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class BookshelevesHomePage extends BasePage{
 	BaseClass bclass;
 	public BookshelevesHomePage(WebDriver driver) {

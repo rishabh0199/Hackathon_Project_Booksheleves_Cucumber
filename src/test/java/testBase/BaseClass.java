@@ -1,5 +1,11 @@
 package testBase;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -22,10 +28,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class BaseClass {
 	public static JSONParser parser;
 	public static JSONObject jsonObject;
@@ -42,6 +56,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Properties p;//to import properties file
 	
+	@BeforeGroups("Smoke Test one")
 	@BeforeTest
 	@Parameters({"browser"})
 	public void driverSetup(String br) throws IOException
@@ -69,7 +84,7 @@ public class BaseClass {
 			driver.get(p.getProperty("appURL"));
 			driver.manage().window().maximize();
 }
-	
+	@AfterGroups("Regression Test two")
 	@AfterTest
 	public void tearDown()
 	{

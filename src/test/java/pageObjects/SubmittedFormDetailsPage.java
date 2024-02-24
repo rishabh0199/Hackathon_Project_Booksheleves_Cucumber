@@ -1,11 +1,23 @@
 package pageObjects;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import testBase.BaseClass;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class SubmittedFormDetailsPage extends BasePage{
 	BaseClass bclass;
 	
@@ -14,8 +26,7 @@ public class SubmittedFormDetailsPage extends BasePage{
 		super(driver);
 	}
 
-	@FindBy(xpath="//h2[contains(text(),'Confirm the details')]")
-	WebElement txtConfirmDetailsHeading;
+
 	
 	@FindBy(xpath="//div[@class=\"BCLqs\"]")
 	WebElement amountEntered;
@@ -45,19 +56,9 @@ public class SubmittedFormDetailsPage extends BasePage{
 	WebElement customerPinCode;//split basis of comma
 	
 	
-	
-	
-	
-	public WebElement confirmationDetailsDisplay()
-	{
-		bclass= new BaseClass();
-		bclass.ExplicitlyWait(txtConfirmDetailsHeading);
-		//String heading = txtConfirmDetailsHeading.getText();
-		return txtConfirmDetailsHeading;
-	}
-	
 	public WebElement amountEnetered()
 	{
+		bclass = new BaseClass();
 		bclass.ExplicitlyWait(amountEntered);
 		return amountEntered;
 	}

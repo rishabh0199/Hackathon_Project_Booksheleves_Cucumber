@@ -1,10 +1,22 @@
 package pageObjects;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class UrbanLadderHomePage extends BasePage
 {
 	BaseClass bclass;

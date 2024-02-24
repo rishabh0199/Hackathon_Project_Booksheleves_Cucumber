@@ -1,5 +1,11 @@
 package pageObjects;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,7 +15,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class LivingSubMenuPage extends BasePage{
 	BaseClass bclass;
 	Actions action;
@@ -18,9 +30,6 @@ public class LivingSubMenuPage extends BasePage{
 		super(driver);
 	}
 
-	@FindBy(xpath="//a[text()='Gift Cards']")
-	WebElement btnGiftCards;
-	
 	@FindBy(xpath="//a[@href='/help']")
 	WebElement txtxScrollTill;
 	
@@ -58,17 +67,5 @@ public class LivingSubMenuPage extends BasePage{
 		return listOfSeatingandChairitems;
 	}
 	
-	public void scrollpage() throws InterruptedException
-	{
-		 js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-
-	}
 	
-	public void clickGiftCards()
-	{
-		bclass = new BaseClass();
-		bclass.ExplicitlyWait(btnGiftCards);
-		//btnGiftCards.click();//getting itercepted error
-		js.executeScript("arguments[0].click();",btnGiftCards);
-	}
 }

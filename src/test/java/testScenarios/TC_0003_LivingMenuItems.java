@@ -1,38 +1,48 @@
 package testScenarios;
 
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import org.testng.annotations.Test;
-
-import pageObjects.GiftsCardHomePage;
 import pageObjects.LivingSubMenuPage;
 import testBase.BaseClass;
 import utilities.ExcelWrite;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class TC_0003_LivingMenuItems extends BaseClass{
 	public static String[] submenuitems;
 	
 	LivingSubMenuPage lmp;
 	
 	
-	@Test(priority = 15)
+	@Test(priority = 15,groups = { "Regression Test one" })
 	public void scrollPageUp()
 	{
 		lmp=new LivingSubMenuPage(driver);
 		lmp.scrollUp();
 	}
 	
-	@Test(priority = 16)
+	@Test(priority = 16,groups = { "Regression Test one" })
 	public void hoverToLiving()
 	{
 		lmp.hoverLiving();
 	}
-	@Test(priority = 17)
+	@Test(priority = 17,groups = { "Regression Test one" })
 	public void waitforSubmenu()
 	{
 		lmp.waitForSubmenuToAppear();
 	}
 	
-	@Test(priority = 18)
+	@Test(priority = 18,groups = { "Regression Test one" })
 	public void submenuSeatingandChairStoreInExcel()
 	{
 		submenuitems= new String[lmp.listOFseatingAndChair().size()];
@@ -43,7 +53,7 @@ public class TC_0003_LivingMenuItems extends BaseClass{
 		}
 		ExcelWrite.setDataExcel(submenuitems, lmp.listOFseatingAndChair().size());
 	}
-	@Test(priority = 19)
+	@Test(priority = 19,groups = { "Regression Test one" })
 	public void displaySubMenuSeatingandChair()
 	{
 		System.out.println("The submenu items under Seating and Chaires:");
@@ -52,16 +62,6 @@ public class TC_0003_LivingMenuItems extends BaseClass{
 			System.out.println(submenuitems[i]);
 		}
 	}
-	@Test(priority = 20)
-	public void scrollPage() throws InterruptedException
-	{
-		lmp.scrollpage();
-	}
-	
-	@Test(priority = 21)
-	public void clickGiftCardsButton()
-	{
-		lmp.clickGiftCards();
-	}
+
 
 }

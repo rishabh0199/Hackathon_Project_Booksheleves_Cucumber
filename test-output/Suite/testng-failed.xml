@@ -7,13 +7,21 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_005_ConfirmingFormDeatils">
+      <class name="testScenarios.TC_005_ConfirmingFormDeatils">
         <methods>
+          <include name="confirmcustomerEmail"/>
+          <include name="confirmcustomerCity"/>
           <include name="driverSetup"/>
           <include name="tearDown"/>
+          <include name="confirmrecipientName"/>
           <include name="confirmamountEnetered"/>
+          <include name="confirmcustomerMobile"/>
+          <include name="confirmcustomerName"/>
+          <include name="confirmrecipientMobile"/>
+          <include name="confirmrecipientEmail"/>
+          <include name="confirmcustomerPinCode"/>
         </methods>
-      </class> <!-- testCases.TC_005_ConfirmingFormDeatils -->
+      </class> <!-- testScenarios.TC_005_ConfirmingFormDeatils -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

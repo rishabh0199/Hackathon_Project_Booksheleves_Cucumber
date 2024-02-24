@@ -1,5 +1,11 @@
 package testScenarios;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -14,7 +20,13 @@ import pageObjects.UrbanLadderHomePage;
 import testBase.BaseClass;
 import utilities.ExcelWrite;
 import utilities.JsonRead;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 
 public class DisplayBookshelves extends BaseClass {
 
@@ -167,14 +179,14 @@ public class DisplayBookshelves extends BaseClass {
 	@Test(priority = 20)
 	public void scrollPage() throws InterruptedException
 	{
-		lmp.scrollpage();
+		gcp.scrollpage();
 	}
 	
 	@Test(priority = 21)
 	public void clickGiftCardsButton()
 	{
 		
-		lmp.clickGiftCards();
+		gcp.clickGiftCards();
 	}
 	
 	@Test(priority = 22)
@@ -316,8 +328,8 @@ public class DisplayBookshelves extends BaseClass {
 	@Test(priority = 41)
 	public void confirmDetails()//if always pass testNG test either fails or pass
 	{
-		fdp=new SubmittedFormDetailsPage(driver);
-		WebElement elem = fdp.confirmationDetailsDisplay();
+		
+		WebElement elem = gcp.confirmationDetailsDisplay();
 		boolean b= elem.isDisplayed();//if confirm page heading diplayed after submission success
 		if(b)
 		{
@@ -331,6 +343,7 @@ public class DisplayBookshelves extends BaseClass {
 	@Test(priority = 42)
 	public void confirmamountEnetered()
 	{
+		fdp=new SubmittedFormDetailsPage(driver);
 		WebElement elem = fdp.amountEnetered();
 		String elementText = elem.getText();
 		

@@ -1,5 +1,11 @@
 package pageObjects;
-
+/***************************************
+ *                                     *
+ * AUTHOR       : Rishabh              *
+ * DATE CREATED : 19-FEB-2024          *
+ * PROJECT      : DisplayBookshelves   *
+ *                                     *
+ ***************************************/
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +13,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
 import utilities.JsonRead;
-
+/***********************************************************************************
+*                                                                                  *
+* Class Name     : HomePageByAtHome                                                * 
+* Description    : To Get all the web elements present in the website              *
+* 				   and to return the same.                                         *
+*                                                                                  *
+************************************************************************************/
 public class GiftsCardHomePage extends BasePage{
 	BaseClass bclass;
 	JavascriptExecutor js ;
@@ -18,6 +30,11 @@ public class GiftsCardHomePage extends BasePage{
 	}
 	
 
+	@FindBy(xpath="//a[contains(text(),'Gift Cards')]")
+	WebElement btnscrolltoGift;
+	
+	@FindBy(xpath="//a[text()='Gift Cards']")
+	WebElement btnGiftCards;
 	
 	@FindBy(xpath="//h2[contains(text(),'1. First, choose an occasion')]")
 	WebElement txtscrollTillGifts;
@@ -62,7 +79,8 @@ public class GiftsCardHomePage extends BasePage{
 	@FindBy(xpath="//button[text()='Confirm']")
 	WebElement btnconfirmButton;
 	
-
+	@FindBy(xpath="//h2[contains(text(),'Confirm the details')]")
+	WebElement txtConfirmDetailsHeading;
 	
 	public void testCaseReadJSON() {
 	
@@ -77,6 +95,21 @@ public class GiftsCardHomePage extends BasePage{
 	}
 	
 }
+	public void scrollpage() throws InterruptedException
+	{
+		// js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);", btnscrolltoGift);
+
+	}
+	
+	public void clickGiftCards()
+	{
+		bclass = new BaseClass();
+		bclass.ExplicitlyWait(btnGiftCards);
+		//btnGiftCards.click();//getting itercepted error
+		js.executeScript("arguments[0].click();",btnGiftCards);
+	}
 	
 	public void scrollDownToGifts()
 	{
@@ -218,5 +251,13 @@ public class GiftsCardHomePage extends BasePage{
 
 		
 	}
+	
+	public WebElement confirmationDetailsDisplay()
+	{
+		bclass.ExplicitlyWait(txtConfirmDetailsHeading);
+		//String heading = txtConfirmDetailsHeading.getText();
+		return txtConfirmDetailsHeading;
+	}
+	
 	
 }
