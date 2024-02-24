@@ -56,7 +56,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Properties p;//to import properties file
 	
-	@BeforeGroups("Smoke Test one")
+	//@BeforeGroups("Smoke Test one")
 	@BeforeTest
 	@Parameters({"browser"})
 	public void driverSetup(String br) throws IOException
@@ -84,7 +84,7 @@ public class BaseClass {
 			driver.get(p.getProperty("appURL"));
 			driver.manage().window().maximize();
 }
-	@AfterGroups("Regression Test two")
+	//@AfterGroups("Regression Test two")
 	@AfterTest
 	public void tearDown()
 	{
