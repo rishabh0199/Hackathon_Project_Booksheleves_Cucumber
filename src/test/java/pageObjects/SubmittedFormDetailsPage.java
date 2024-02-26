@@ -13,9 +13,9 @@ import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
+* Class Name     :  SubmittedFormDetailsPage                                               * 
 * Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* 				   Submitted Form Page and there corresponding actions.                                         *
 *                                                                                  *
 ************************************************************************************/
 public class SubmittedFormDetailsPage extends BasePage{

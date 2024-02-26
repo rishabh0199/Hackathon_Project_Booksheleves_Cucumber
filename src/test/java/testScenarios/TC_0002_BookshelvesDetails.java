@@ -13,9 +13,9 @@ import testBase.BaseClass;
 import utilities.ExcelWrite;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : TC_0002_BookshelvesDetails                                      * 
+* Description    : Get all the Bookshelves available according to requirement      *
+* 					store and display.                                        	   *
 *                                                                                  *
 ************************************************************************************/
 public class TC_0002_BookshelvesDetails extends BaseClass{

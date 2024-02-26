@@ -16,9 +16,9 @@ import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : BookshelevesHomePage                                            * 
+* Description    : To Get all the web Elements present in the website              *
+* 				  Booksheleve homepage and there corresponding actions.                       *
 *                                                                                  *
 ************************************************************************************/
 public class BookshelevesHomePage extends BasePage{

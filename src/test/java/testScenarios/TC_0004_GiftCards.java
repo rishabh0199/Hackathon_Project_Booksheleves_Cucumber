@@ -13,9 +13,8 @@ import pageObjects.GiftsCardHomePage;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : TC_0004_GiftCards                                               * 
+* Description    : Get the Gift Card option and fill the Form of gift Card.        *
 *                                                                                  *
 ************************************************************************************/
 public class TC_0004_GiftCards extends BaseClass{

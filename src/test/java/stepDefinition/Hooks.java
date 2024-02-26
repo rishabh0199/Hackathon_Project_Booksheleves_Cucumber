@@ -15,9 +15,9 @@ import io.cucumber.java.Scenario;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : Hooks                                                   		   * 
+* Description    : actions that need to be performed before or after scenarios in  *
+* a test suite.                                       							   *
 *                                                                                  *
 ************************************************************************************/
 

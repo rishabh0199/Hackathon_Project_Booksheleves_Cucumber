@@ -20,9 +20,9 @@ import testScenarios.TC_0004_GiftCards;
 import testScenarios.TC_0005_ConfirmingFormDetails;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : StepDefinitionFile                                              * 
+* Description    : This is Cucumber Step Definition File implemented               *
+* 				   all this steps written in feature file.                         *
 *                                                                                  *
 ************************************************************************************/
 public class StepDefinitionFile {
@@ -37,7 +37,7 @@ public class StepDefinitionFile {
 	public void user_is_already_on_urban_ladder_web_page() throws IOException {
 		
 		bs = new BaseClass();
-		bs.driverSetup("chrome");
+		bs.driverSetup("windows","chrome");
 
 	}
 

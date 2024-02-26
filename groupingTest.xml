@@ -8,6 +8,7 @@
 	
 	<test name="Smoke Test one">
 		<parameter name="browser" value="chrome"/>
+		<parameter name="os" value="windows"/>
 		<groups>
 			<run>
 				<include name="Smoke Test one" />
@@ -26,6 +27,7 @@
   
   <test name="Regression Test one">
 	  <parameter name="browser" value="chrome"/>
+	  <parameter name="os" value="windows"/>
 		<groups>	
 			<run>		
 				<include name="Regression Test one" />			
@@ -44,6 +46,7 @@
 
 	<test name="Smoke Test two">
 		<parameter name="browser" value="chrome"/>
+		<parameter name="os" value="windows"/>
 		<groups>
 			<run>
 				<include name="Smoke Test two" />	
@@ -61,6 +64,7 @@
 	
 	  <test name="Regression Test two">
 		  <parameter name="browser" value="chrome"/>
+		  <parameter name="os" value="windows"/>
 		<groups>	
 			<run>		
 				<include name="Regression Test two" />			

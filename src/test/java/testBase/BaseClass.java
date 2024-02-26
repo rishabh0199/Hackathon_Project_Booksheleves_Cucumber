@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -21,11 +22,14 @@ import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterGroups;
@@ -35,9 +39,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : BaseClass                                               		   * 
+* Description    : include all the methods reused in project .                     *
 *                                                                                  *
 ************************************************************************************/
 public class BaseClass {
@@ -57,9 +60,10 @@ public class BaseClass {
 	public Properties p;//to import properties file
 	
 	//@BeforeGroups("Smoke Test one")
+	@SuppressWarnings("deprecation")
 	@BeforeTest
-	@Parameters({"browser"})
-	public void driverSetup(String br) throws IOException
+	@Parameters({"os","browser"})
+	public void driverSetup(String os,String br) throws IOException
 	{
 		
 		
@@ -68,7 +72,49 @@ public class BaseClass {
 		p=new Properties();//creating obj of Properties
 		p.load(file);//load properties file
 	
-			//launch based on condition
+		
+		
+		
+		//check on which envt want to run grid or local from config properties file
+		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
+		{
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			
+			//decide os
+			if(os.equalsIgnoreCase("windows"))
+			{
+				capabilities.setPlatform(Platform.WINDOWS);
+			}
+			else if(os.equalsIgnoreCase("mac"))
+			{
+				capabilities.setPlatform(Platform.MAC);
+			}
+			else
+			{
+				System.out.println("No matching OS...");
+			}
+			//decide browser
+			switch(br.toLowerCase())
+			{
+			case "chrome" :
+				capabilities.setBrowserName("chrome");
+				break;
+			case "edge":
+				capabilities.setBrowserName("MicrosoftEdge");
+				break;
+			default :
+				System.out.println("No matching browser..");
+				return;
+			}
+			driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444"),capabilities);//node/grid URL is fixed
+
+		}
+		
+		else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
+		{
+			//switch(getProperties().getProperty("browser").toLowerCase){
+			
+			//1.launch based on condition-locally
 			switch(br.toLowerCase())
 			{
 			case "chrome":
@@ -77,7 +123,11 @@ public class BaseClass {
 				driver = new EdgeDriver();break;
 			default:
 				System.out.println("not matching browser");
+				return;
+
 			}
+		}
+		//2.for grid now add remote envt 
 
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -141,18 +191,28 @@ public class BaseClass {
 		return targetFilePath;
 	}
 	
-	public void screenshot(String tname) throws IOException
-	{
-		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
-		
-		TakesScreenshot ts= (TakesScreenshot) driver;
-		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath= System.getProperty("user.dir")+"\\screenshots\\"+ tname+" "+timeStamp + ".png";
-		File targetFile= new File(targetFilePath);
-		FileUtils.copyFile(sourceFile, targetFile);	
-	}
+//	public void screenshot(String tname) throws IOException
+//	{
+//		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
+//		
+//		TakesScreenshot ts= (TakesScreenshot) driver;
+//		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+//		
+//		String targetFilePath= System.getProperty("user.dir")+"\\screenshots\\"+ tname+" "+timeStamp + ".png";
+//		File targetFile= new File(targetFilePath);
+//		FileUtils.copyFile(sourceFile, targetFile);	
+//	}
+
+	//for cucumber send browser using config file
 	
-	
+//	public static Properties getproperties() throws IOException
+//	{
+//		Properties m;
+//		//loading properties file
+//		FileReader file = new FileReader(".//src/test/resources/config.properties");//class
+//		m=new Properties();//creating obj of Properties
+//		m.load(file);
+//		return m;
+//	}
 
 }

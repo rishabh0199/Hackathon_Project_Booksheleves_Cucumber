@@ -25,9 +25,8 @@ import testBase.BaseClass;
 //Extent report 5.x...//version
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : ExtentReportManager                                             * 
+* Description    : Create Extent report after the project run.                     *
 *                                                                                  *
 ************************************************************************************/
 public class ExtentReportManager implements ITestListener {

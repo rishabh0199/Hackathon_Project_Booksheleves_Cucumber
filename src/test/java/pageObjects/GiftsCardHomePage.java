@@ -15,9 +15,9 @@ import testBase.BaseClass;
 import utilities.JsonRead;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
+* Class Name     : GiftsCardHomePage                                               * 
 * Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* 				   GiftCard Page and there corresponding actions.                  *
 *                                                                                  *
 ************************************************************************************/
 public class GiftsCardHomePage extends BasePage{

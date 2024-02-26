@@ -13,9 +13,9 @@ import testBase.BaseClass;
 import utilities.ExcelWrite;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : TC_0003_LivingMenuItems                                         * 
+* Description    : store and print all the seating and chair options available     *
+* 					according to requirements.                                     *
 *                                                                                  *
 ************************************************************************************/
 public class TC_0003_LivingMenuItems extends BaseClass{

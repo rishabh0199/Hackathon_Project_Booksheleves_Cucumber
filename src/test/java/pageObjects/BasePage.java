@@ -13,9 +13,9 @@ import org.openqa.selenium.support.PageFactory;
 
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : BasePage                                                        * 
+* Description    : initialize the WebDriver instance and set up the PageFactory    *
+* for the page objects.                                                            *
 *                                                                                  *
 ************************************************************************************/
 

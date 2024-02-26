@@ -14,9 +14,8 @@ import testBase.BaseClass;
 import utilities.JsonRead;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : TC_0005_ConfirmingFormDetails                                   * 
+* Description    : Validate the submitted form details.                            *
 *                                                                                  *
 ************************************************************************************/
 public class TC_0005_ConfirmingFormDetails extends BaseClass{

@@ -11,9 +11,8 @@ import pageObjects.UrbanLadderHomePage;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
-* Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* Class Name     : TC_0001_SearchBookshelve                                        * 
+* Description    : Searching for Bookshelve from the Website main page             *
 *                                                                                  *
 ************************************************************************************/
 public class TC_0001_SearchBookshelve extends BaseClass{
@@ -24,6 +23,7 @@ public class TC_0001_SearchBookshelve extends BaseClass{
 		{
 			uhp = new UrbanLadderHomePage(driver);
 			uhp.inputBox();
+
 		}
 		
 		@Test(priority = 2, groups = { "Smoke Test one" })

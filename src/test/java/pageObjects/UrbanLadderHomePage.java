@@ -12,9 +12,9 @@ import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     : HomePageByAtHome                                                * 
+* Class Name     : UrbanLadderHomePage                                                * 
 * Description    : To Get all the web elements present in the website              *
-* 				   and to return the same.                                         *
+* 				   Home Page and there corresponding actions.                                         *
 *                                                                                  *
 ************************************************************************************/
 public class UrbanLadderHomePage extends BasePage
