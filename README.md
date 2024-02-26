@@ -127,17 +127,17 @@ In order to run the project please make sure you have TestNg and Cucumber plugin
 
 
 
-*Use*```bashMaster.xml:to run Project using chrome with TestNG```
+*Use* ```Master.xml:to run Project using chrome with TestNG```
 
-*Use*```bashcrossbrowsertest.xml:to run Project using chrome and edge with TestNG serially.```
+*Use* ```crossbrowsertest.xml:to run Project using chrome and edge with TestNG serially.```
 
-*Use*```bashparallelbrowsertest.xml:to run Project using chrome and edge parallelly with TestNG.```
+*Use* ```parallelbrowsertest.xml:to run Project using chrome and edge parallelly with TestNG.```
 
-*Use*```bashCucumberTestRun.java:to run Project with Cucumber```
+*Use* ```CucumberTestRun.java:to run Project with Cucumber```
 
-*Use*```bashpom.xml:right click and run as Maven Test.```
+*Use* ```pom.xml:right click and run as Maven Test.```
 
- * ```To run using grid use selenium-server-4.18.1 jar,cmd "java -jar selenium-4.18.1.jar standalone" open on browser "http://localhost:4444/" and uncomment- execution_env=remote and to run locally use- execution_env=local in config file and run using TestNG or Cucumber it will run on Grid ``` *
+* ```To run using grid use selenium-server-4.18.1 jar,cmd "java -jar selenium-4.18.1.jar standalone" open on browser "http://localhost:4444/" and uncomment- execution_env=remote and to run locally use- execution_env=local in config file and run using TestNG or Cucumber it will run on Grid ```
 
 ## Report and Screenshots ##
 
