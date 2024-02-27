@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testScenarios.TC_0003_LivingMenuItems">
+        <methods>
+          <include name="waitforSubmenu"/>
+          <include name="tearDown"/>
+          <include name="driverSetup"/>
+          <include name="submenuSeatingandChairStoreInExcel"/>
+          <include name="scrollPageUp"/>
+          <include name="displaySubMenuSeatingandChair"/>
+          <include name="hoverToLiving"/>
+        </methods>
+      </class> <!-- testScenarios.TC_0003_LivingMenuItems -->
+      <class name="testScenarios.TC_0002_BookshelvesDetails">
+        <methods>
+          <include name="slidePriceamount"/>
+          <include name="tearDown"/>
+          <include name="hoverCategory"/>
+          <include name="scrollDown"/>
+          <include name="displayingBookShelves"/>
+          <include name="waitPriceSlider"/>
+          <include name="bookshelveCategory"/>
+          <include name="hoverSortBy"/>
+          <include name="hoverToPrice"/>
+          <include name="driverSetup"/>
+          <include name="inStock"/>
+          <include name="closePopUp"/>
+          <include name="collectingBookShelvesList"/>
+          <include name="sortAccToPrice"/>
+        </methods>
+      </class> <!-- testScenarios.TC_0002_BookshelvesDetails -->
+      <class name="testScenarios.TC_0004_GiftCards">
+        <methods>
+          <include name="clickOnConfirmbtn"/>
+          <include name="scrollPage"/>
+          <include name="clickConfirmWithcorrectEmail"/>
+          <include name="tearDown"/>
+          <include name="enterNameofCustomer"/>
+          <include name="enterMobileNumberofCustomer"/>
+          <include name="enterPinofCustomerPin"/>
+          <include name="enterMobileofRecipient"/>
+          <include name="enterMessageIfAny"/>
+          <include name="getErrorMessage"/>
+          <include name="clearrecipientmail"/>
+          <include name="clickOnNextbtn"/>
+          <include name="enterEmailofRecipient"/>
+          <include name="enterNameofRecipient"/>
+          <include name="scrollDownToGiftsOptions"/>
+          <include name="driverSetup"/>
+          <include name="enterAddressofCustomer"/>
+          <include name="selectBirthdayOrAnniversary"/>
+          <include name="loadTheJSONFile"/>
+          <include name="enteringPriceAmount"/>
+          <include name="confirmDetails"/>
+          <include name="enterEmailofCustomer"/>
+          <include name="clickGiftCardsButton"/>
+          <include name="enterCorrectDeatils"/>
+        </methods>
+      </class> <!-- testScenarios.TC_0004_GiftCards -->
+      <class name="testScenarios.TC_0005_ConfirmingFormDetails">
+        <methods>
+          <include name="confirmcustomerPinCode"/>
+          <include name="confirmrecipientEmail"/>
+          <include name="tearDown"/>
+          <include name="driverSetup"/>
+          <include name="confirmrecipientMobile"/>
+          <include name="confirmcustomerMobile"/>
+          <include name="confirmcustomerCity"/>
+          <include name="confirmamountEnetered"/>
+          <include name="confirmrecipientName"/>
+          <include name="confirmcustomerEmail"/>
+          <include name="confirmcustomerName"/>
+        </methods>
+      </class> <!-- testScenarios.TC_0005_ConfirmingFormDetails -->
+      <class name="testScenarios.TC_0001_SearchBookshelve">
+        <methods>
+          <include name="clicksearch"/>
+          <include name="tearDown"/>
+          <include name="driverSetup"/>
+          <include name="sendInSearch"/>
+        </methods>
+      </class> <!-- testScenarios.TC_0001_SearchBookshelve -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

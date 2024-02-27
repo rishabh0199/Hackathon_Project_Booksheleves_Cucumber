@@ -1,40 +1,49 @@
-14:05:55.120 [main] INFO  testBase.BaseClass - **********Entering Mobile number of Customer***********
-14:05:55.224 [main] INFO  testBase.BaseClass - **********enterMobileNumberofCustomer() successfully passed***********
-14:05:55.419 [main] INFO  testBase.BaseClass - **********Entering Address of Customer***********
-14:05:55.510 [main] INFO  testBase.BaseClass - **********enterAddressofCustomer() successfully passed***********
-14:05:55.672 [main] INFO  testBase.BaseClass - **********Entering Pin code of Customer***********
-14:05:55.772 [main] INFO  testBase.BaseClass - **********enterPinofCustomerPin() successfully passed***********
-14:05:55.944 [main] INFO  testBase.BaseClass - **********Entering Message ***********
-14:05:56.075 [main] INFO  testBase.BaseClass - **********enterMessageIfAny() successfully passed***********
-14:05:56.274 [main] INFO  testBase.BaseClass - **********Clicking confirm button***********
-14:05:59.513 [main] INFO  testBase.BaseClass - **********clickOnConfirmbtn() successfully passed***********
-14:05:59.738 [main] INFO  testBase.BaseClass - **********Capturing Error Message***********
-14:05:59.762 [main] INFO  testBase.BaseClass - **********getErrorMessage() successfully passed***********
-14:05:59.984 [main] INFO  testBase.BaseClass - **********Clearing the email input box for recipient***********
-14:06:00.151 [main] INFO  testBase.BaseClass - **********clearrecipientmail() successfully passed***********
-14:06:00.381 [main] INFO  testBase.BaseClass - **********Entering correct mail for recipient***********
-14:06:00.504 [main] INFO  testBase.BaseClass - **********enterCorrectDeatils() successfully passed***********
-14:06:00.703 [main] INFO  testBase.BaseClass - **********clicking on confirm button***********
-14:06:03.839 [main] INFO  testBase.BaseClass - **********clickConfirmWithcorrectEmail() successfully passed***********
-14:06:04.208 [main] INFO  testBase.BaseClass - **********Verfiying form submitted successfully***********
-14:06:04.253 [main] INFO  testBase.BaseClass - **********confirmDetails() successfully passed***********
-14:06:04.676 [main] INFO  testBase.BaseClass - **********Starting TC_0005_ConfirmingFormDetails ************
-14:06:04.676 [main] INFO  testBase.BaseClass - **********Verifying the Entered Amount***********
-14:06:04.752 [main] INFO  testBase.BaseClass - **********confirmamountEnetered() successfully passed***********
-14:06:05.195 [main] INFO  testBase.BaseClass - **********Verifying Recipient name***********
-14:06:05.271 [main] INFO  testBase.BaseClass - **********confirmrecipientName() successfully passed***********
-14:06:05.728 [main] INFO  testBase.BaseClass - **********Verifying recipient Email***********
-14:06:05.808 [main] INFO  testBase.BaseClass - **********confirmrecipientEmail() successfully passed***********
-14:06:06.254 [main] INFO  testBase.BaseClass - **********Verifying recipient Mobile number***********
-14:06:06.325 [main] INFO  testBase.BaseClass - **********confirmrecipientMobile() successfully passed***********
-14:06:06.741 [main] INFO  testBase.BaseClass - **********Verifying customer name***********
-14:06:06.810 [main] INFO  testBase.BaseClass - **********confirmcustomerName() successfully passed***********
-14:06:07.249 [main] INFO  testBase.BaseClass - **********Verifying customer Email***********
-14:06:07.318 [main] INFO  testBase.BaseClass - **********confirmcustomerEmail() successfully passed***********
-14:06:07.700 [main] INFO  testBase.BaseClass - **********Verifying customer mobile number***********
-14:06:07.760 [main] INFO  testBase.BaseClass - **********confirmcustomerMobile() successfully passed***********
-14:06:08.152 [main] INFO  testBase.BaseClass - **********Verifying customer city***********
-14:06:08.207 [main] INFO  testBase.BaseClass - **********confirmcustomerCity()successfully passed***********
-14:06:08.590 [main] INFO  testBase.BaseClass - **********Verifying customer pincode***********
-14:06:08.635 [main] INFO  testBase.BaseClass - **********confirmcustomerPinCode() successfully passed***********
-14:06:08.635 [main] INFO  testBase.BaseClass - **********Finished TC_0005_ConfirmingFormDetails ************
+14:21:23.786 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
+14:21:24.218 [main] INFO  testBase.BaseClass - **********Hovering to category************
+14:21:24.434 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
+14:21:24.890 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
+14:21:25.253 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
+14:21:25.873 [main] INFO  testBase.BaseClass - **********Hovering to price************
+14:21:26.403 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
+14:21:26.774 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
+14:21:26.825 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
+14:21:27.167 [main] INFO  testBase.BaseClass - **********Sliding price************
+14:21:31.660 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
+14:21:31.861 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
+14:21:32.306 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
+14:38:58.105 [main] INFO  testBase.BaseClass - **********Starting TC_0001_SearchBookshelve************
+14:38:58.117 [main] INFO  testBase.BaseClass - **********Passing input in search Bar************
+14:38:58.515 [main] INFO  testBase.BaseClass - **********sendInSearch() successfully passed************
+14:38:58.936 [main] INFO  testBase.BaseClass - **********Clicking Search Button************
+14:39:01.560 [main] INFO  testBase.BaseClass - **********clicksearch() successfully passed************
+14:39:01.560 [main] INFO  testBase.BaseClass - **********Finished TC_0001_SearchBookshelve************
+14:39:04.643 [main] INFO  testBase.BaseClass - **********Starting TC_0002_BookshelvesDetails************
+14:39:04.643 [main] INFO  testBase.BaseClass - **********Scrolling Down to Bookshelves************
+14:39:04.708 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
+14:39:05.054 [main] INFO  testBase.BaseClass - **********Hovering to category************
+14:39:05.236 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
+14:39:05.517 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
+14:39:05.661 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
+14:39:05.932 [main] INFO  testBase.BaseClass - **********Hovering to price************
+14:39:06.098 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
+14:39:06.389 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
+14:39:06.423 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
+14:39:06.706 [main] INFO  testBase.BaseClass - **********Sliding price************
+14:39:15.449 [main] INFO  testBase.BaseClass - **********slidePriceamount() successfully passed************
+14:39:15.670 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
+14:39:15.833 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
+14:39:16.111 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
+14:39:16.206 [main] INFO  testBase.BaseClass - **********sortAccToPrice() successfully passed************
+14:39:16.465 [main] INFO  testBase.BaseClass - **********Selecting In Stock option************
+14:39:16.564 [main] INFO  testBase.BaseClass - **********inStock() successfully passed************
+14:39:16.774 [main] INFO  testBase.BaseClass - **********Collecting Bookshelves and Storing to Excel************
+14:39:50.067 [main] INFO  testBase.BaseClass - **********collectingBookShelvesList() successfully passed************
+14:39:50.420 [main] INFO  testBase.BaseClass - **********Printing the Bookshelves on console************
+14:39:50.421 [main] INFO  testBase.BaseClass - **********displayingBookShelves() successfully passed************
+14:39:50.421 [main] INFO  testBase.BaseClass - **********Finished TC_0002_BookshelvesDetails************
+14:39:50.723 [main] INFO  testBase.BaseClass - **********Starting TC_0003_LivingMenuItems************
+14:39:50.723 [main] INFO  testBase.BaseClass - **********Scrolling Page Up to Living************
+14:39:50.810 [main] INFO  testBase.BaseClass - **********scrollPageUp() Successfuly passed************
+14:39:51.047 [main] INFO  testBase.BaseClass - *********Hovering to Living option************
+14:39:51.203 [main] INFO  testBase.BaseClass - **********hoverToLiving() Successfuly passed************
+14:39:51.460 [main] INFO  testBase.BaseClass - *********Waiting for Submenu to appear************

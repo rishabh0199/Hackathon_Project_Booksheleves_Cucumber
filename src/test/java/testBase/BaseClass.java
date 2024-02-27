@@ -106,7 +106,7 @@ public class BaseClass {
 				System.out.println("No matching browser..");
 				return;
 			}
-			driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444"),capabilities);//node/grid URL is fixed
+			driver = new RemoteWebDriver(new URL("http://10.66.136.196:4444"),capabilities);//node/grid URL is fixed
 
 		}
 		
