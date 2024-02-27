@@ -1,0 +1,48 @@
+14:04:42.364 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
+14:04:42.544 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
+14:04:42.817 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
+14:04:42.909 [main] INFO  testBase.BaseClass - **********sortAccToPrice() successfully passed************
+14:04:43.173 [main] INFO  testBase.BaseClass - **********Selecting In Stock option************
+14:04:43.282 [main] INFO  testBase.BaseClass - **********inStock() successfully passed************
+14:04:43.495 [main] INFO  testBase.BaseClass - **********Collecting Bookshelves and Storing to Excel************
+14:05:19.146 [main] INFO  testBase.BaseClass - **********collectingBookShelvesList() successfully passed************
+14:05:19.583 [main] INFO  testBase.BaseClass - **********Printing the Bookshelves on console************
+14:05:19.583 [main] INFO  testBase.BaseClass - **********displayingBookShelves() successfully passed************
+14:05:19.583 [main] INFO  testBase.BaseClass - **********Finished TC_0002_BookshelvesDetails************
+14:05:19.944 [main] INFO  testBase.BaseClass - **********Starting TC_0003_LivingMenuItems************
+14:05:19.944 [main] INFO  testBase.BaseClass - **********Scrolling Page Up to Living************
+14:05:20.002 [main] INFO  testBase.BaseClass - **********scrollPageUp() Successfuly passed************
+14:05:20.307 [main] INFO  testBase.BaseClass - *********Hovering to Living option************
+14:05:20.469 [main] INFO  testBase.BaseClass - **********hoverToLiving() Successfuly passed************
+14:05:20.791 [main] INFO  testBase.BaseClass - *********Waiting for Submenu to appear************
+14:05:20.834 [main] INFO  testBase.BaseClass - **********waitforSubmenu() Successfuly passed************
+14:05:21.180 [main] INFO  testBase.BaseClass - *********Fetching and Storing Submenu Items in Excel************
+14:05:25.073 [main] INFO  testBase.BaseClass - **********submenuSeatingandChairStoreInExcel() Successfuly passed************
+14:05:25.317 [main] INFO  testBase.BaseClass - *********Printing the Submenu options on console************
+14:05:27.103 [main] INFO  testBase.BaseClass - *********Waiting for Submenu to appear************
+14:05:27.103 [main] INFO  testBase.BaseClass - **********displaySubMenuSeatingandChair() successfully passed************
+14:05:27.311 [main] INFO  testBase.BaseClass - **********Starting TC_0004_GiftCards************
+14:05:27.312 [main] INFO  testBase.BaseClass - **********Scrolling Page Up Gift Cards button***********
+14:05:27.384 [main] INFO  testBase.BaseClass - **********scrollPage() successfully passed***********
+14:05:27.606 [main] INFO  testBase.BaseClass - **********Clicking the Gift Cards Button***********
+14:05:50.940 [main] INFO  testBase.BaseClass - **********clickGiftCardsButton() successfully passed***********
+14:05:51.591 [main] INFO  testBase.BaseClass - **********loading JSON file***********
+14:05:51.638 [main] INFO  testBase.BaseClass - **********loadTheJSONFile() successfully passed***********
+14:05:52.147 [main] INFO  testBase.BaseClass - **********Scrolling to all gift options present***********
+14:05:52.172 [main] INFO  testBase.BaseClass - **********scrollDownToGiftsOptions() successfully passed***********
+14:05:52.446 [main] INFO  testBase.BaseClass - **********Selcting Birthday And Anniversary card***********
+14:05:52.560 [main] INFO  testBase.BaseClass - **********selectBirthdayOrAnniversary() successfully passed***********
+14:05:52.789 [main] INFO  testBase.BaseClass - **********Entring Price for Card***********
+14:05:52.943 [main] INFO  testBase.BaseClass - **********enteringPriceAmount() successfully passed***********
+14:05:53.339 [main] INFO  testBase.BaseClass - **********Clicking on next Button***********
+14:05:53.421 [main] INFO  testBase.BaseClass - **********clickOnNextbtn() successfully passed***********
+14:05:53.728 [main] INFO  testBase.BaseClass - **********Entring Recipient name***********
+14:05:53.868 [main] INFO  testBase.BaseClass - **********lenterNameofRecipient() successfully passed***********
+14:05:54.030 [main] INFO  testBase.BaseClass - **********Entering the invalid recipient email***********
+14:05:54.130 [main] INFO  testBase.BaseClass - **********EnterEmailofRecipient() successfully passed***********
+14:05:54.295 [main] INFO  testBase.BaseClass - **********Entring Recipient Mobile number***********
+14:05:54.400 [main] INFO  testBase.BaseClass - *********enterMobileofRecipient() successfully passed***********
+14:05:54.552 [main] INFO  testBase.BaseClass - **********Entering Name of Customer***********
+14:05:54.639 [main] INFO  testBase.BaseClass - *********enterNameofCustomer() successfully passed***********
+14:05:54.819 [main] INFO  testBase.BaseClass - **********Entring Email of Customer***********
+14:05:54.919 [main] INFO  testBase.BaseClass - **********enterEmailofCustomer() successfully passed***********

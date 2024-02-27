@@ -100,7 +100,7 @@ public class BaseClass {
 				capabilities.setBrowserName("chrome");
 				break;
 			case "edge":
-				capabilities.setBrowserName("MicrosoftEdge");
+				capabilities.setBrowserName("edge");
 				break;
 			default :
 				System.out.println("No matching browser..");
@@ -156,7 +156,7 @@ public class BaseClass {
 	    wait.until(ExpectedConditions.visibilityOfAllElements(elem));
 	}
 	
-	public  Logger getLogger() 
+	public  static Logger getLogger() 
 	{		 
 		//public Logger logger;//pre defined class come from Log4j2 dependency
 		//Loading Log4j2 file
