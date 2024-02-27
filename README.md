@@ -151,7 +151,7 @@ In order to run the project please make sure you have TestNg and Cucumber plugin
 ```
 
 
-## A Result folder is present where I placed all the results of Last run.
+## A Result folder is present where I placed all the results of Last run with in pdf's
 
 
 ## Author
