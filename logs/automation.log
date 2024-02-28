@@ -1,49 +1,45 @@
-14:21:23.786 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
-14:21:24.218 [main] INFO  testBase.BaseClass - **********Hovering to category************
-14:21:24.434 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
-14:21:24.890 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
-14:21:25.253 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
-14:21:25.873 [main] INFO  testBase.BaseClass - **********Hovering to price************
-14:21:26.403 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
-14:21:26.774 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
-14:21:26.825 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
-14:21:27.167 [main] INFO  testBase.BaseClass - **********Sliding price************
-14:21:31.660 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
-14:21:31.861 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
-14:21:32.306 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
-14:38:58.105 [main] INFO  testBase.BaseClass - **********Starting TC_0001_SearchBookshelve************
-14:38:58.117 [main] INFO  testBase.BaseClass - **********Passing input in search Bar************
-14:38:58.515 [main] INFO  testBase.BaseClass - **********sendInSearch() successfully passed************
-14:38:58.936 [main] INFO  testBase.BaseClass - **********Clicking Search Button************
-14:39:01.560 [main] INFO  testBase.BaseClass - **********clicksearch() successfully passed************
-14:39:01.560 [main] INFO  testBase.BaseClass - **********Finished TC_0001_SearchBookshelve************
-14:39:04.643 [main] INFO  testBase.BaseClass - **********Starting TC_0002_BookshelvesDetails************
-14:39:04.643 [main] INFO  testBase.BaseClass - **********Scrolling Down to Bookshelves************
-14:39:04.708 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
-14:39:05.054 [main] INFO  testBase.BaseClass - **********Hovering to category************
-14:39:05.236 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
-14:39:05.517 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
-14:39:05.661 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
-14:39:05.932 [main] INFO  testBase.BaseClass - **********Hovering to price************
-14:39:06.098 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
-14:39:06.389 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
-14:39:06.423 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
-14:39:06.706 [main] INFO  testBase.BaseClass - **********Sliding price************
-14:39:15.449 [main] INFO  testBase.BaseClass - **********slidePriceamount() successfully passed************
-14:39:15.670 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
-14:39:15.833 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
-14:39:16.111 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
-14:39:16.206 [main] INFO  testBase.BaseClass - **********sortAccToPrice() successfully passed************
-14:39:16.465 [main] INFO  testBase.BaseClass - **********Selecting In Stock option************
-14:39:16.564 [main] INFO  testBase.BaseClass - **********inStock() successfully passed************
-14:39:16.774 [main] INFO  testBase.BaseClass - **********Collecting Bookshelves and Storing to Excel************
-14:39:50.067 [main] INFO  testBase.BaseClass - **********collectingBookShelvesList() successfully passed************
-14:39:50.420 [main] INFO  testBase.BaseClass - **********Printing the Bookshelves on console************
-14:39:50.421 [main] INFO  testBase.BaseClass - **********displayingBookShelves() successfully passed************
-14:39:50.421 [main] INFO  testBase.BaseClass - **********Finished TC_0002_BookshelvesDetails************
-14:39:50.723 [main] INFO  testBase.BaseClass - **********Starting TC_0003_LivingMenuItems************
-14:39:50.723 [main] INFO  testBase.BaseClass - **********Scrolling Page Up to Living************
-14:39:50.810 [main] INFO  testBase.BaseClass - **********scrollPageUp() Successfuly passed************
-14:39:51.047 [main] INFO  testBase.BaseClass - *********Hovering to Living option************
-14:39:51.203 [main] INFO  testBase.BaseClass - **********hoverToLiving() Successfuly passed************
-14:39:51.460 [main] INFO  testBase.BaseClass - *********Waiting for Submenu to appear************
+17:26:48.618 [main] INFO  testBase.BaseClass - **********Starting TC_0002_BookshelvesDetails************
+17:26:48.626 [main] INFO  testBase.BaseClass - **********Scrolling Down to Bookshelves************
+17:26:48.676 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
+17:26:48.968 [main] INFO  testBase.BaseClass - **********Hovering to category************
+17:26:49.144 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
+17:26:49.416 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
+17:26:49.564 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
+17:26:49.850 [main] INFO  testBase.BaseClass - **********Hovering to price************
+17:26:50.012 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
+17:26:50.410 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
+17:26:50.458 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
+17:26:50.811 [main] INFO  testBase.BaseClass - **********Sliding price************
+17:26:55.406 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
+17:26:55.601 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
+17:26:56.004 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
+17:26:56.162 [main] INFO  testBase.BaseClass - **********sortAccToPrice() successfully passed************
+17:26:56.568 [main] INFO  testBase.BaseClass - **********Selecting In Stock option************
+17:26:56.931 [main] INFO  testBase.BaseClass - **********inStock() successfully passed************
+17:26:57.404 [main] INFO  testBase.BaseClass - **********Collecting Bookshelves and Storing to Excel************
+17:27:40.307 [main] INFO  testBase.BaseClass - **********Starting TC_0001_SearchBookshelve************
+17:27:40.314 [main] INFO  testBase.BaseClass - **********Passing input in search Bar************
+17:27:40.751 [main] INFO  testBase.BaseClass - **********sendInSearch() successfully passed************
+17:27:41.281 [main] INFO  testBase.BaseClass - **********Clicking Search Button************
+17:27:42.974 [main] INFO  testBase.BaseClass - **********clicksearch() successfully passed************
+17:27:42.975 [main] INFO  testBase.BaseClass - **********Finished TC_0001_SearchBookshelve************
+17:27:46.968 [main] INFO  testBase.BaseClass - **********Starting TC_0002_BookshelvesDetails************
+17:27:46.968 [main] INFO  testBase.BaseClass - **********Scrolling Down to Bookshelves************
+17:27:47.017 [main] INFO  testBase.BaseClass - **********scrollDown() successfully passed************
+17:27:47.402 [main] INFO  testBase.BaseClass - **********Hovering to category************
+17:27:47.602 [main] INFO  testBase.BaseClass - **********hoverCategory() successfully passed************
+17:27:48.065 [main] INFO  testBase.BaseClass - **********Selecting Bookshelve category************
+17:27:48.292 [main] INFO  testBase.BaseClass - **********bookshelveCategory() successfully passed************
+17:27:48.744 [main] INFO  testBase.BaseClass - **********Hovering to price************
+17:27:48.927 [main] INFO  testBase.BaseClass - **********hoverToPrice() successfully passed************
+17:27:49.367 [main] INFO  testBase.BaseClass - **********Waiting for Price Slider************
+17:27:49.592 [main] INFO  testBase.BaseClass - **********waitPriceSlider() successfully passed************
+17:27:50.244 [main] INFO  testBase.BaseClass - **********Sliding price************
+17:27:58.981 [main] INFO  testBase.BaseClass - **********slidePriceamount() successfully passed************
+17:27:59.301 [main] INFO  testBase.BaseClass - **********Hovering to sort By************
+17:27:59.468 [main] INFO  testBase.BaseClass - **********hoverSortBy() successfully passed************
+17:27:59.781 [main] INFO  testBase.BaseClass - **********Selecting sorting High to low************
+17:27:59.895 [main] INFO  testBase.BaseClass - **********sortAccToPrice() successfully passed************
+17:28:00.210 [main] INFO  testBase.BaseClass - **********Selecting In Stock option************
+17:28:00.329 [main] INFO  testBase.BaseClass - **********inStock() successfully passed************
+17:28:00.594 [main] INFO  testBase.BaseClass - **********Collecting Bookshelves and Storing to Excel************

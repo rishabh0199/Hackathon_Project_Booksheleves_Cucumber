@@ -39,22 +39,22 @@ public class Hooks {
     }
     
     
-    @AfterStep
-    public void addScreenshot(Scenario scenario) {
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
-        boolean b = scenario.isFailed();
-        
-        if (!b) {
-        	// Attach the screenshot for passed steps
-            scenario.attach(screenshot, "image/png", "PassedStepScreenshot");
-        } else {
-            
-        	// Attach the screenshot for failed steps
-            scenario.attach(screenshot, "image/png", "FailedStepScreenshot");
-           
-        }
-    }
+//    @AfterStep
+//    public void addScreenshot(Scenario scenario) {
+//        TakesScreenshot ts = (TakesScreenshot) driver;
+//        byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+//        boolean b = scenario.isFailed();
+//        
+//        if (!b) {
+//        	// Attach the screenshot for passed steps
+//            scenario.attach(screenshot, "image/png", "PassedStepScreenshot");
+//        } else {
+//            
+//        	// Attach the screenshot for failed steps
+//            scenario.attach(screenshot, "image/png", "FailedStepScreenshot");
+//           
+//        }
+//    }
 
    
 }
