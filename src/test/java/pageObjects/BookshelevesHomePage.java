@@ -18,7 +18,7 @@ import testBase.BaseClass;
 *                                                                                  *
 * Class Name     : BookshelevesHomePage                                            * 
 * Description    : To Get all the web Elements present in the website              *
-* 				  Booksheleve homepage and there corresponding actions.                       *
+* 				  Booksheleve homepage and there corresponding actions.            *
 *                                                                                  *
 ************************************************************************************/
 public class BookshelevesHomePage extends BasePage{
@@ -112,12 +112,11 @@ public class BookshelevesHomePage extends BasePage{
 		bclass.ExplicitlyWait(sliderPrice);
 	}
 	
-	public void slidePrice() throws InterruptedException
+	public void slidePrice() throws InterruptedException 
 	{
 		System.out.println("The Current position of the Max slider is"+sliderPrice.getLocation());
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		action.moveToElement(sliderPrice).dragAndDropBy(sliderPrice, -212, 0).perform();
-		Thread.sleep(4000);
 		System.out.println("The Current position of the Max slider is"+sliderPrice.getLocation());
 	}
 	

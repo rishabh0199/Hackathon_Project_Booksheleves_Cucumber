@@ -6,8 +6,8 @@ package pageObjects;
  * PROJECT      : DisplayBookshelves   *
  *                                     *
  ***************************************/
-import java.util.List;
 
+import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import testBase.BaseClass;
+
 /***********************************************************************************
 *                                                                                  *
 * Class Name     : LivingSubMenuPage                                               * 
@@ -23,15 +24,14 @@ import testBase.BaseClass;
 *                                                                                  *
 ************************************************************************************/
 public class LivingSubMenuPage extends BasePage{
-	BaseClass bclass;
-	Actions action;
-	JavascriptExecutor js;
+	 BaseClass bclass;
+		
 	public LivingSubMenuPage(WebDriver driver) {
 		super(driver);
 	}
 
 	@FindBy(xpath="//a[@href='/help']")
-	WebElement txtxScrollTill;
+	WebElement textScrollTill;
 	
 	@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]")
 	WebElement optHoverLiving;
@@ -42,16 +42,20 @@ public class LivingSubMenuPage extends BasePage{
 	@FindAll(@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]//div//div//ul//li[1]//ul//li"))
 	List<WebElement> listOfSeatingandChairitems;
 	
-	public void scrollUp()
-	{	
-		js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView(true);", txtxScrollTill);		
+	
+	public void scrollPageUp()
+	{ 
+		bclass = new BaseClass();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		bclass.ExplicitlyWait(textScrollTill);
+		js.executeScript("arguments[0].scrollIntoView(true);", textScrollTill);		
 	}
+	
 	
 	public void hoverLiving()
 	{
-		bclass = new BaseClass();
-		action = new Actions(driver);
+		
+		Actions action = new Actions(driver);
 		bclass.ExplicitlyWait(optHoverLiving);
 		action.moveToElement(optHoverLiving).perform();;
 	}

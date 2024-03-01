@@ -1,4 +1,5 @@
 package stepDefinition;
+import java.io.FileReader;
 /***************************************
  *                                     *
  * AUTHOR       : Rishabh              *
@@ -7,11 +8,11 @@ package stepDefinition;
  *                                     *
  ***************************************/
 import java.io.IOException;
-import org.openqa.selenium.WebElement;
+import java.util.Properties;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.GiftsCardHomePage;
 import testBase.BaseClass;
 import testScenarios.TC_0001_SearchBookshelve;
 import testScenarios.TC_0002_BookshelvesDetails;
@@ -36,8 +37,12 @@ public class StepDefinitionFile {
 	@Given("User is already on UrbanLadder WebPage")
 	public void user_is_already_on_urban_ladder_web_page() throws IOException {
 		
+		FileReader file = new FileReader(".//src/test/resources/config.properties");
+		Properties p = new Properties();
+		p.load(file);
+		
 		bs = new BaseClass();
-		bs.driverSetup("windows","chrome");
+		bs.driverSetup(p.getProperty("os"),p.getProperty("browser"));
 
 	}
 
@@ -131,7 +136,7 @@ public class StepDefinitionFile {
 	@Then("User scroll page up till living is present")
 	public void user_scroll_page_up_till_living_is_present() {
 		tc0003 = new TC_0003_LivingMenuItems();
-		tc0003.scrollPageUp();
+		tc0003.scrollUp();
 
 	}
 

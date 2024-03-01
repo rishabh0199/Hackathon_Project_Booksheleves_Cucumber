@@ -32,9 +32,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 /***********************************************************************************
@@ -100,7 +98,7 @@ public class BaseClass {
 				capabilities.setBrowserName("chrome");
 				break;
 			case "edge":
-				capabilities.setBrowserName("edge");
+				capabilities.setBrowserName("MicrosoftEdge");
 				break;
 			default :
 				System.out.println("No matching browser..");
@@ -118,9 +116,11 @@ public class BaseClass {
 			switch(br.toLowerCase())
 			{
 			case "chrome":
-				driver = new ChromeDriver();break;
+				driver = new ChromeDriver();
+				break;
 			case "edge":
-				driver = new EdgeDriver();break;
+				driver = new EdgeDriver();
+				break;
 			default:
 				System.out.println("not matching browser");
 				return;
@@ -130,8 +130,8 @@ public class BaseClass {
 		//2.for grid now add remote envt 
 
 			driver.manage().deleteAllCookies();
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.get(p.getProperty("appURL"));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.manage().window().maximize();
 }
 	//@AfterGroups("Regression Test two")
@@ -145,14 +145,14 @@ public class BaseClass {
 	
 	public void ExplicitlyWait(WebElement elem)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	    wait.until(ExpectedConditions.visibilityOfAllElements(elem));
 	}
 	
 	
 	public void ExplicitlyWaitList(List<WebElement> elem)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	    wait.until(ExpectedConditions.visibilityOfAllElements(elem));
 	}
 	
@@ -191,28 +191,5 @@ public class BaseClass {
 		return targetFilePath;
 	}
 	
-//	public void screenshot(String tname) throws IOException
-//	{
-//		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
-//		
-//		TakesScreenshot ts= (TakesScreenshot) driver;
-//		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-//		
-//		String targetFilePath= System.getProperty("user.dir")+"\\screenshots\\"+ tname+" "+timeStamp + ".png";
-//		File targetFile= new File(targetFilePath);
-//		FileUtils.copyFile(sourceFile, targetFile);	
-//	}
-
-	//for cucumber send browser using config file
-	
-//	public static Properties getproperties() throws IOException
-//	{
-//		Properties m;
-//		//loading properties file
-//		FileReader file = new FileReader(".//src/test/resources/config.properties");//class
-//		m=new Properties();//creating obj of Properties
-//		m.load(file);
-//		return m;
-//	}
 
 }

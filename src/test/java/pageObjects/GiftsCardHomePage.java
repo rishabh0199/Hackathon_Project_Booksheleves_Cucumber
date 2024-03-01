@@ -119,7 +119,7 @@ public class GiftsCardHomePage extends BasePage{
 	
 	public void clickOnBirthdayOrAnniversary() 
 	{
-		bclass=new BaseClass();
+		
 		bclass.ExplicitlyWait(optbirthDayOrAnniversary);
 		optbirthDayOrAnniversary.click();		
 	}

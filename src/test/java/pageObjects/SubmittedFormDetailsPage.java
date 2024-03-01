@@ -9,13 +9,12 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import testBase.BaseClass;
 /***********************************************************************************
 *                                                                                  *
-* Class Name     :  SubmittedFormDetailsPage                                               * 
+* Class Name     :  SubmittedFormDetailsPage                                       * 
 * Description    : To Get all the web elements present in the website              *
-* 				   Submitted Form Page and there corresponding actions.                                         *
+* 				   Submitted Form Page and there corresponding actions.            *
 *                                                                                  *
 ************************************************************************************/
 public class SubmittedFormDetailsPage extends BasePage{

@@ -17,7 +17,8 @@
 				<class name="testScenarios.TC_0002_BookshelvesDetails"/>
 				<class name="testScenarios.TC_0003_LivingMenuItems"/>
 				<class name="testScenarios.TC_0004_GiftCards"/>
-      			<class name="testScenarios.TC_0005_ConfirmingFormDetails"/>	
+      			<class name="testScenarios.TC_0005_ConfirmingFormDetails"/>
+
     	</classes>
     	
  	 </test> <!-- Test -->
