@@ -1,30 +1,20 @@
-11:13:46.559 [main] INFO  testBase.BaseClass - **********Capturing Error Message***********
-11:13:46.595 [main] INFO  testBase.BaseClass - **********getErrorMessage() successfully passed***********
-11:13:46.850 [main] INFO  testBase.BaseClass - **********Clearing the email input box for recipient***********
-11:13:47.057 [main] INFO  testBase.BaseClass - **********clearrecipientmail() successfully passed***********
-11:13:47.307 [main] INFO  testBase.BaseClass - **********Entering correct mail for recipient***********
-11:13:47.454 [main] INFO  testBase.BaseClass - **********enterCorrectDeatils() successfully passed***********
-11:13:47.679 [main] INFO  testBase.BaseClass - **********clicking on confirm button***********
-11:13:50.860 [main] INFO  testBase.BaseClass - **********clickConfirmWithcorrectEmail() successfully passed***********
-11:13:51.252 [main] INFO  testBase.BaseClass - **********Verfiying form submitted successfully***********
-11:13:51.299 [main] INFO  testBase.BaseClass - **********confirmDetails() successfully passed***********
-11:13:51.732 [main] INFO  testBase.BaseClass - **********Starting TC_0005_ConfirmingFormDetails ************
-11:13:51.732 [main] INFO  testBase.BaseClass - **********Verifying the Entered Amount***********
-11:13:51.799 [main] INFO  testBase.BaseClass - **********confirmamountEnetered() successfully passed***********
-11:13:52.218 [main] INFO  testBase.BaseClass - **********Verifying Recipient name***********
-11:13:52.304 [main] INFO  testBase.BaseClass - **********confirmrecipientName() successfully passed***********
-11:13:52.767 [main] INFO  testBase.BaseClass - **********Verifying recipient Email***********
-11:13:52.838 [main] INFO  testBase.BaseClass - **********confirmrecipientEmail() successfully passed***********
-11:13:53.280 [main] INFO  testBase.BaseClass - **********Verifying recipient Mobile number***********
-11:13:53.351 [main] INFO  testBase.BaseClass - **********confirmrecipientMobile() successfully passed***********
-11:13:53.782 [main] INFO  testBase.BaseClass - **********Verifying customer name***********
-11:13:53.851 [main] INFO  testBase.BaseClass - **********confirmcustomerName() successfully passed***********
-11:13:54.282 [main] INFO  testBase.BaseClass - **********Verifying customer Email***********
-11:13:54.355 [main] INFO  testBase.BaseClass - **********confirmcustomerEmail() successfully passed***********
-11:13:54.777 [main] INFO  testBase.BaseClass - **********Verifying customer mobile number***********
-11:13:54.852 [main] INFO  testBase.BaseClass - **********confirmcustomerMobile() successfully passed***********
-11:13:55.324 [main] INFO  testBase.BaseClass - **********Verifying customer city***********
-11:13:55.393 [main] INFO  testBase.BaseClass - **********confirmcustomerCity()successfully passed***********
-11:13:55.875 [main] INFO  testBase.BaseClass - **********Verifying customer pincode***********
-11:13:56.033 [main] INFO  testBase.BaseClass - **********confirmcustomerPinCode() successfully passed***********
-11:13:56.033 [main] INFO  testBase.BaseClass - **********Finished TC_0005_ConfirmingFormDetails ************
+13:49:09.441 [main] INFO  testBase.BaseClass - **********Starting TC_0005_ConfirmingFormDetails ************
+13:49:09.446 [main] INFO  testBase.BaseClass - **********Verifying the Entered Amount***********
+13:49:09.489 [main] INFO  testBase.BaseClass - **********confirmamountEnetered() successfully passed***********
+13:49:09.827 [main] INFO  testBase.BaseClass - **********Verifying Recipient name***********
+13:49:09.892 [main] INFO  testBase.BaseClass - **********confirmrecipientName() successfully passed***********
+13:49:10.295 [main] INFO  testBase.BaseClass - **********Verifying recipient Email***********
+13:49:10.375 [main] INFO  testBase.BaseClass - **********confirmrecipientEmail() successfully passed***********
+13:49:10.811 [main] INFO  testBase.BaseClass - **********Verifying recipient Mobile number***********
+13:49:10.880 [main] INFO  testBase.BaseClass - **********confirmrecipientMobile() successfully passed***********
+13:49:11.277 [main] INFO  testBase.BaseClass - **********Verifying customer name***********
+13:49:11.344 [main] INFO  testBase.BaseClass - **********confirmcustomerName() successfully passed***********
+13:49:11.748 [main] INFO  testBase.BaseClass - **********Verifying customer Email***********
+13:49:11.815 [main] INFO  testBase.BaseClass - **********confirmcustomerEmail() successfully passed***********
+13:49:12.205 [main] INFO  testBase.BaseClass - **********Verifying customer mobile number***********
+13:49:12.270 [main] INFO  testBase.BaseClass - **********confirmcustomerMobile() successfully passed***********
+13:49:12.658 [main] INFO  testBase.BaseClass - **********Verifying customer city***********
+13:49:12.721 [main] INFO  testBase.BaseClass - **********confirmcustomerCity()successfully passed***********
+13:49:13.100 [main] INFO  testBase.BaseClass - **********Verifying customer pincode***********
+13:49:13.204 [main] INFO  testBase.BaseClass - **********confirmcustomerPinCode() successfully passed***********
+13:49:13.204 [main] INFO  testBase.BaseClass - **********Finished TC_0005_ConfirmingFormDetails ************

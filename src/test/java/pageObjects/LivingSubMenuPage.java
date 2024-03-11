@@ -36,7 +36,7 @@ public class LivingSubMenuPage extends BasePage{
 	@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]")
 	WebElement optHoverLiving;
 	
-	@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]//a[contains(text(),\"Seating & Chairs\")]")
+	@FindBy(xpath="//li[@class='topnav_item livingunit']//a[contains(text(),'Chair')]")
 	WebElement txtSeatingChair;
 	
 	@FindAll(@FindBy(xpath="//li[@class=\"topnav_item livingunit\"]//div//div//ul//li[1]//ul//li"))

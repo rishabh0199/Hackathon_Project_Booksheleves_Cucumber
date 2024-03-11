@@ -1,0 +1,3419 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Featured News Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Featured News Functional Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 11, 2024 01:45:37 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">SmokeTestone</a><a class="dropdown-item" href="#">RegressionTestone</a><a class="dropdown-item" href="#">RegressionTesttwo</a><a class="dropdown-item" href="#">SmokeTesttwo</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">sendInSearch</p>
+            <p class="text-sm">
+              <span>1:45:49 pm</span> / <span>00:00:00:757</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">sendInSearch</h5>
+<span class='badge badge-success'>03.11.2024 1:45:49 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:50 pm</span>
+<span class='badge badge-default'>00:00:00:757</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\sendInSearch_20240311014549.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\sendInSearch_20240311014549.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:49 pm</td>
+        <td>
+          sendInSearch got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:49 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0001_SearchBookshelve
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">clicksearch</p>
+            <p class="text-sm">
+              <span>1:45:52 pm</span> / <span>00:00:00:578</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clicksearch</h5>
+<span class='badge badge-success'>03.11.2024 1:45:52 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:53 pm</span>
+<span class='badge badge-default'>00:00:00:578</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clicksearch_20240311014552.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clicksearch_20240311014552.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:52 pm</td>
+        <td>
+          clicksearch got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:52 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0001_SearchBookshelve
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">closePopUp</p>
+            <p class="text-sm">
+              <span>1:45:55 pm</span> / <span>00:00:00:493</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">closePopUp</h5>
+<span class='badge badge-success'>03.11.2024 1:45:55 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:55 pm</span>
+<span class='badge badge-default'>00:00:00:493</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\closePopUp_20240311014555.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\closePopUp_20240311014555.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:55 pm</td>
+        <td>
+          closePopUp got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:55 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">scrollDown</p>
+            <p class="text-sm">
+              <span>1:45:55 pm</span> / <span>00:00:00:446</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">scrollDown</h5>
+<span class='badge badge-success'>03.11.2024 1:45:55 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:56 pm</span>
+<span class='badge badge-default'>00:00:00:446</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollDown_20240311014555.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollDown_20240311014555.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:55 pm</td>
+        <td>
+          scrollDown got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:55 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">hoverCategory</p>
+            <p class="text-sm">
+              <span>1:45:56 pm</span> / <span>00:00:00:372</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">hoverCategory</h5>
+<span class='badge badge-success'>03.11.2024 1:45:56 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:57 pm</span>
+<span class='badge badge-default'>00:00:00:372</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverCategory_20240311014556.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverCategory_20240311014556.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:56 pm</td>
+        <td>
+          hoverCategory got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:56 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">bookshelveCategory</p>
+            <p class="text-sm">
+              <span>1:45:57 pm</span> / <span>00:00:00:363</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">bookshelveCategory</h5>
+<span class='badge badge-success'>03.11.2024 1:45:57 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:57 pm</span>
+<span class='badge badge-default'>00:00:00:363</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\bookshelveCategory_20240311014557.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\bookshelveCategory_20240311014557.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:57 pm</td>
+        <td>
+          bookshelveCategory got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:57 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">hoverToPrice</p>
+            <p class="text-sm">
+              <span>1:45:57 pm</span> / <span>00:00:00:515</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">hoverToPrice</h5>
+<span class='badge badge-success'>03.11.2024 1:45:57 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:58 pm</span>
+<span class='badge badge-default'>00:00:00:515</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverToPrice_20240311014557.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverToPrice_20240311014557.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:57 pm</td>
+        <td>
+          hoverToPrice got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:57 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">waitPriceSlider</p>
+            <p class="text-sm">
+              <span>1:45:58 pm</span> / <span>00:00:00:557</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">waitPriceSlider</h5>
+<span class='badge badge-success'>03.11.2024 1:45:58 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:45:58 pm</span>
+<span class='badge badge-default'>00:00:00:557</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\waitPriceSlider_20240311014558.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\waitPriceSlider_20240311014558.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:45:58 pm</td>
+        <td>
+          waitPriceSlider got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:45:58 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">slidePriceamount</p>
+            <p class="text-sm">
+              <span>1:46:01 pm</span> / <span>00:00:00:366</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">slidePriceamount</h5>
+<span class='badge badge-success'>03.11.2024 1:46:01 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:02 pm</span>
+<span class='badge badge-default'>00:00:00:366</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\slidePriceamount_20240311014601.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\slidePriceamount_20240311014601.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:01 pm</td>
+        <td>
+          slidePriceamount got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:01 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">hoverSortBy</p>
+            <p class="text-sm">
+              <span>1:46:02 pm</span> / <span>00:00:00:352</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">hoverSortBy</h5>
+<span class='badge badge-success'>03.11.2024 1:46:02 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:02 pm</span>
+<span class='badge badge-default'>00:00:00:352</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverSortBy_20240311014602.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverSortBy_20240311014602.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:02 pm</td>
+        <td>
+          hoverSortBy got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:02 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">sortAccToPrice</p>
+            <p class="text-sm">
+              <span>1:46:03 pm</span> / <span>00:00:00:396</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">sortAccToPrice</h5>
+<span class='badge badge-success'>03.11.2024 1:46:03 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:03 pm</span>
+<span class='badge badge-default'>00:00:00:396</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\sortAccToPrice_20240311014603.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\sortAccToPrice_20240311014603.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:03 pm</td>
+        <td>
+          sortAccToPrice got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:03 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">inStock</p>
+            <p class="text-sm">
+              <span>1:46:03 pm</span> / <span>00:00:00:290</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">inStock</h5>
+<span class='badge badge-success'>03.11.2024 1:46:03 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:04 pm</span>
+<span class='badge badge-default'>00:00:00:290</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\inStock_20240311014603.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\inStock_20240311014603.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:03 pm</td>
+        <td>
+          inStock got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:03 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">collectingBookShelvesList</p>
+            <p class="text-sm">
+              <span>1:46:11 pm</span> / <span>00:00:00:350</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">collectingBookShelvesList</h5>
+<span class='badge badge-success'>03.11.2024 1:46:11 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:11 pm</span>
+<span class='badge badge-default'>00:00:00:350</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\collectingBookShelvesList_20240311014611.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\collectingBookShelvesList_20240311014611.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          collectingBookShelvesList got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="SmokeTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">displayingBookShelves</p>
+            <p class="text-sm">
+              <span>1:46:11 pm</span> / <span>00:00:00:346</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">displayingBookShelves</h5>
+<span class='badge badge-success'>03.11.2024 1:46:11 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:11 pm</span>
+<span class='badge badge-default'>00:00:00:346</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\displayingBookShelves_20240311014611.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\displayingBookShelves_20240311014611.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          displayingBookShelves got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0002_BookshelvesDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="RegressionTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">scrollUp</p>
+            <p class="text-sm">
+              <span>1:46:11 pm</span> / <span>00:00:00:301</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">scrollUp</h5>
+<span class='badge badge-success'>03.11.2024 1:46:11 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:12 pm</span>
+<span class='badge badge-default'>00:00:00:301</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollUp_20240311014611.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollUp_20240311014611.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          scrollUp got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:11 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0003_LivingMenuItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="RegressionTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">hoverToLiving</p>
+            <p class="text-sm">
+              <span>1:46:12 pm</span> / <span>00:00:00:300</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">hoverToLiving</h5>
+<span class='badge badge-success'>03.11.2024 1:46:12 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:12 pm</span>
+<span class='badge badge-default'>00:00:00:300</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverToLiving_20240311014612.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\hoverToLiving_20240311014612.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:12 pm</td>
+        <td>
+          hoverToLiving got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:12 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0003_LivingMenuItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="RegressionTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">waitforSubmenu</p>
+            <p class="text-sm">
+              <span>1:46:12 pm</span> / <span>00:00:00:286</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">waitforSubmenu</h5>
+<span class='badge badge-success'>03.11.2024 1:46:12 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:12 pm</span>
+<span class='badge badge-default'>00:00:00:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\waitforSubmenu_20240311014612.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\waitforSubmenu_20240311014612.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:12 pm</td>
+        <td>
+          waitforSubmenu got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:12 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0003_LivingMenuItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="RegressionTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">submenuSeatingandChairStoreInExcel</p>
+            <p class="text-sm">
+              <span>1:46:17 pm</span> / <span>00:00:00:255</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">submenuSeatingandChairStoreInExcel</h5>
+<span class='badge badge-success'>03.11.2024 1:46:17 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:17 pm</span>
+<span class='badge badge-default'>00:00:00:255</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\submenuSeatingandChairStoreInExcel_20240311014617.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\submenuSeatingandChairStoreInExcel_20240311014617.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:17 pm</td>
+        <td>
+          submenuSeatingandChairStoreInExcel got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:17 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0003_LivingMenuItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="RegressionTestone"
+          device="">
+          <div class="test-detail">
+            <p class="name">displaySubMenuSeatingandChair</p>
+            <p class="text-sm">
+              <span>1:46:19 pm</span> / <span>00:00:00:236</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">displaySubMenuSeatingandChair</h5>
+<span class='badge badge-success'>03.11.2024 1:46:19 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:19 pm</span>
+<span class='badge badge-default'>00:00:00:236</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTestone</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\displaySubMenuSeatingandChair_20240311014619.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\displaySubMenuSeatingandChair_20240311014619.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:19 pm</td>
+        <td>
+          displaySubMenuSeatingandChair got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:19 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0003_LivingMenuItems
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">scrollPage</p>
+            <p class="text-sm">
+              <span>1:46:19 pm</span> / <span>00:00:00:253</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">scrollPage</h5>
+<span class='badge badge-success'>03.11.2024 1:46:19 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:20 pm</span>
+<span class='badge badge-default'>00:00:00:253</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollPage_20240311014619.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollPage_20240311014619.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:19 pm</td>
+        <td>
+          scrollPage got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:19 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickGiftCardsButton</p>
+            <p class="text-sm">
+              <span>1:46:23 pm</span> / <span>00:00:00:615</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickGiftCardsButton</h5>
+<span class='badge badge-success'>03.11.2024 1:46:23 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:24 pm</span>
+<span class='badge badge-default'>00:00:00:615</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickGiftCardsButton_20240311014623.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickGiftCardsButton_20240311014623.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:23 pm</td>
+        <td>
+          clickGiftCardsButton got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:23 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">loadTheJSONFile</p>
+            <p class="text-sm">
+              <span>1:46:24 pm</span> / <span>00:00:00:674</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loadTheJSONFile</h5>
+<span class='badge badge-success'>03.11.2024 1:46:24 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:24 pm</span>
+<span class='badge badge-default'>00:00:00:674</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\loadTheJSONFile_20240311014624.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\loadTheJSONFile_20240311014624.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:24 pm</td>
+        <td>
+          loadTheJSONFile got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:24 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">scrollDownToGiftsOptions</p>
+            <p class="text-sm">
+              <span>1:46:24 pm</span> / <span>00:00:00:293</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">scrollDownToGiftsOptions</h5>
+<span class='badge badge-success'>03.11.2024 1:46:24 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:25 pm</span>
+<span class='badge badge-default'>00:00:00:293</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollDownToGiftsOptions_20240311014624.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\scrollDownToGiftsOptions_20240311014624.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:24 pm</td>
+        <td>
+          scrollDownToGiftsOptions got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:24 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">selectBirthdayOrAnniversary</p>
+            <p class="text-sm">
+              <span>1:46:25 pm</span> / <span>00:00:00:348</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">selectBirthdayOrAnniversary</h5>
+<span class='badge badge-success'>03.11.2024 1:46:25 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:25 pm</span>
+<span class='badge badge-default'>00:00:00:348</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\selectBirthdayOrAnniversary_20240311014625.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\selectBirthdayOrAnniversary_20240311014625.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:25 pm</td>
+        <td>
+          selectBirthdayOrAnniversary got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:25 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enteringPriceAmount</p>
+            <p class="text-sm">
+              <span>1:46:25 pm</span> / <span>00:00:00:329</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enteringPriceAmount</h5>
+<span class='badge badge-success'>03.11.2024 1:46:25 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:26 pm</span>
+<span class='badge badge-default'>00:00:00:329</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enteringPriceAmount_20240311014625.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enteringPriceAmount_20240311014625.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:25 pm</td>
+        <td>
+          enteringPriceAmount got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:25 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnNextbtn</p>
+            <p class="text-sm">
+              <span>1:46:26 pm</span> / <span>00:00:00:381</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnNextbtn</h5>
+<span class='badge badge-success'>03.11.2024 1:46:26 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:26 pm</span>
+<span class='badge badge-default'>00:00:00:381</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickOnNextbtn_20240311014626.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickOnNextbtn_20240311014626.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:26 pm</td>
+        <td>
+          clickOnNextbtn got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:26 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterNameofRecipient</p>
+            <p class="text-sm">
+              <span>1:46:26 pm</span> / <span>00:00:00:225</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterNameofRecipient</h5>
+<span class='badge badge-success'>03.11.2024 1:46:26 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:27 pm</span>
+<span class='badge badge-default'>00:00:00:225</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterNameofRecipient_20240311014626.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterNameofRecipient_20240311014626.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:26 pm</td>
+        <td>
+          enterNameofRecipient got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:26 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterEmailofRecipient</p>
+            <p class="text-sm">
+              <span>1:46:27 pm</span> / <span>00:00:00:245</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterEmailofRecipient</h5>
+<span class='badge badge-success'>03.11.2024 1:46:27 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:27 pm</span>
+<span class='badge badge-default'>00:00:00:245</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterEmailofRecipient_20240311014627.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterEmailofRecipient_20240311014627.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:27 pm</td>
+        <td>
+          enterEmailofRecipient got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:27 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterMobileofRecipient</p>
+            <p class="text-sm">
+              <span>1:46:27 pm</span> / <span>00:00:00:217</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterMobileofRecipient</h5>
+<span class='badge badge-success'>03.11.2024 1:46:27 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:27 pm</span>
+<span class='badge badge-default'>00:00:00:217</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMobileofRecipient_20240311014627.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMobileofRecipient_20240311014627.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:27 pm</td>
+        <td>
+          enterMobileofRecipient got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:27 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterNameofCustomer</p>
+            <p class="text-sm">
+              <span>1:46:28 pm</span> / <span>00:00:00:218</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterNameofCustomer</h5>
+<span class='badge badge-success'>03.11.2024 1:46:28 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:28 pm</span>
+<span class='badge badge-default'>00:00:00:218</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterNameofCustomer_20240311014628.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterNameofCustomer_20240311014628.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:28 pm</td>
+        <td>
+          enterNameofCustomer got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:28 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterEmailofCustomer</p>
+            <p class="text-sm">
+              <span>1:46:28 pm</span> / <span>00:00:00:304</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterEmailofCustomer</h5>
+<span class='badge badge-success'>03.11.2024 1:46:28 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:28 pm</span>
+<span class='badge badge-default'>00:00:00:304</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterEmailofCustomer_20240311014628.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterEmailofCustomer_20240311014628.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:28 pm</td>
+        <td>
+          enterEmailofCustomer got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:28 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterMobileNumberofCustomer</p>
+            <p class="text-sm">
+              <span>1:46:29 pm</span> / <span>00:00:00:255</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterMobileNumberofCustomer</h5>
+<span class='badge badge-success'>03.11.2024 1:46:29 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:29 pm</span>
+<span class='badge badge-default'>00:00:00:255</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMobileNumberofCustomer_20240311014629.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMobileNumberofCustomer_20240311014629.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          enterMobileNumberofCustomer got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterAddressofCustomer</p>
+            <p class="text-sm">
+              <span>1:46:29 pm</span> / <span>00:00:00:244</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterAddressofCustomer</h5>
+<span class='badge badge-success'>03.11.2024 1:46:29 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:29 pm</span>
+<span class='badge badge-default'>00:00:00:244</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterAddressofCustomer_20240311014629.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterAddressofCustomer_20240311014629.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          enterAddressofCustomer got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterPinofCustomerPin</p>
+            <p class="text-sm">
+              <span>1:46:29 pm</span> / <span>00:00:00:227</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterPinofCustomerPin</h5>
+<span class='badge badge-success'>03.11.2024 1:46:29 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:30 pm</span>
+<span class='badge badge-default'>00:00:00:227</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterPinofCustomerPin_20240311014629.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterPinofCustomerPin_20240311014629.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          enterPinofCustomerPin got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:29 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterMessageIfAny</p>
+            <p class="text-sm">
+              <span>1:46:30 pm</span> / <span>00:00:00:232</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterMessageIfAny</h5>
+<span class='badge badge-success'>03.11.2024 1:46:30 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:30 pm</span>
+<span class='badge badge-default'>00:00:00:232</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMessageIfAny_20240311014630.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterMessageIfAny_20240311014630.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:30 pm</td>
+        <td>
+          enterMessageIfAny got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:30 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickOnConfirmbtn</p>
+            <p class="text-sm">
+              <span>1:46:33 pm</span> / <span>00:00:00:139</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickOnConfirmbtn</h5>
+<span class='badge badge-success'>03.11.2024 1:46:33 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:33 pm</span>
+<span class='badge badge-default'>00:00:00:139</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickOnConfirmbtn_20240311014633.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickOnConfirmbtn_20240311014633.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:33 pm</td>
+        <td>
+          clickOnConfirmbtn got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:33 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">getErrorMessage</p>
+            <p class="text-sm">
+              <span>1:46:33 pm</span> / <span>00:00:00:130</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getErrorMessage</h5>
+<span class='badge badge-success'>03.11.2024 1:46:33 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:33 pm</span>
+<span class='badge badge-default'>00:00:00:130</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\getErrorMessage_20240311014633.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\getErrorMessage_20240311014633.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:33 pm</td>
+        <td>
+          getErrorMessage got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:33 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">clearrecipientmail</p>
+            <p class="text-sm">
+              <span>1:46:34 pm</span> / <span>00:00:00:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clearrecipientmail</h5>
+<span class='badge badge-success'>03.11.2024 1:46:34 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:34 pm</span>
+<span class='badge badge-default'>00:00:00:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clearrecipientmail_20240311014634.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clearrecipientmail_20240311014634.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:34 pm</td>
+        <td>
+          clearrecipientmail got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:34 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">enterCorrectDeatils</p>
+            <p class="text-sm">
+              <span>1:46:34 pm</span> / <span>00:00:00:162</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">enterCorrectDeatils</h5>
+<span class='badge badge-success'>03.11.2024 1:46:34 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:34 pm</span>
+<span class='badge badge-default'>00:00:00:162</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterCorrectDeatils_20240311014634.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\enterCorrectDeatils_20240311014634.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:34 pm</td>
+        <td>
+          enterCorrectDeatils got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:34 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">clickConfirmWithcorrectEmail</p>
+            <p class="text-sm">
+              <span>1:46:37 pm</span> / <span>00:00:00:335</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">clickConfirmWithcorrectEmail</h5>
+<span class='badge badge-success'>03.11.2024 1:46:37 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:37 pm</span>
+<span class='badge badge-default'>00:00:00:335</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickConfirmWithcorrectEmail_20240311014637.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\clickConfirmWithcorrectEmail_20240311014637.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:37 pm</td>
+        <td>
+          clickConfirmWithcorrectEmail got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:37 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag="SmokeTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmDetails</p>
+            <p class="text-sm">
+              <span>1:46:37 pm</span> / <span>00:00:00:334</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmDetails</h5>
+<span class='badge badge-success'>03.11.2024 1:46:37 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:38 pm</span>
+<span class='badge badge-default'>00:00:00:334</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">SmokeTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmDetails_20240311014637.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmDetails_20240311014637.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:37 pm</td>
+        <td>
+          confirmDetails got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:37 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0004_GiftCards
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmamountEnetered</p>
+            <p class="text-sm">
+              <span>1:46:38 pm</span> / <span>00:00:00:338</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmamountEnetered</h5>
+<span class='badge badge-success'>03.11.2024 1:46:38 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:38 pm</span>
+<span class='badge badge-default'>00:00:00:338</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmamountEnetered_20240311014638.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmamountEnetered_20240311014638.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:38 pm</td>
+        <td>
+          confirmamountEnetered got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:38 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmrecipientName</p>
+            <p class="text-sm">
+              <span>1:46:38 pm</span> / <span>00:00:00:359</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmrecipientName</h5>
+<span class='badge badge-success'>03.11.2024 1:46:38 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:39 pm</span>
+<span class='badge badge-default'>00:00:00:359</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientName_20240311014638.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientName_20240311014638.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:38 pm</td>
+        <td>
+          confirmrecipientName got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:38 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmrecipientEmail</p>
+            <p class="text-sm">
+              <span>1:46:39 pm</span> / <span>00:00:00:403</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmrecipientEmail</h5>
+<span class='badge badge-success'>03.11.2024 1:46:39 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:39 pm</span>
+<span class='badge badge-default'>00:00:00:403</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientEmail_20240311014639.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientEmail_20240311014639.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:39 pm</td>
+        <td>
+          confirmrecipientEmail got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:39 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmrecipientMobile</p>
+            <p class="text-sm">
+              <span>1:46:39 pm</span> / <span>00:00:00:462</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmrecipientMobile</h5>
+<span class='badge badge-success'>03.11.2024 1:46:39 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:40 pm</span>
+<span class='badge badge-default'>00:00:00:462</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientMobile_20240311014639.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmrecipientMobile_20240311014639.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:39 pm</td>
+        <td>
+          confirmrecipientMobile got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:39 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmcustomerName</p>
+            <p class="text-sm">
+              <span>1:46:40 pm</span> / <span>00:00:00:502</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmcustomerName</h5>
+<span class='badge badge-success'>03.11.2024 1:46:40 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:40 pm</span>
+<span class='badge badge-default'>00:00:00:502</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerName_20240311014640.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerName_20240311014640.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:40 pm</td>
+        <td>
+          confirmcustomerName got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:40 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmcustomerEmail</p>
+            <p class="text-sm">
+              <span>1:46:40 pm</span> / <span>00:00:00:420</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmcustomerEmail</h5>
+<span class='badge badge-success'>03.11.2024 1:46:40 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:41 pm</span>
+<span class='badge badge-default'>00:00:00:420</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerEmail_20240311014640.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerEmail_20240311014640.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:40 pm</td>
+        <td>
+          confirmcustomerEmail got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:40 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmcustomerMobile</p>
+            <p class="text-sm">
+              <span>1:46:41 pm</span> / <span>00:00:00:389</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmcustomerMobile</h5>
+<span class='badge badge-success'>03.11.2024 1:46:41 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:41 pm</span>
+<span class='badge badge-default'>00:00:00:389</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerMobile_20240311014641.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerMobile_20240311014641.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:41 pm</td>
+        <td>
+          confirmcustomerMobile got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:41 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmcustomerCity</p>
+            <p class="text-sm">
+              <span>1:46:41 pm</span> / <span>00:00:00:362</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmcustomerCity</h5>
+<span class='badge badge-success'>03.11.2024 1:46:41 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:42 pm</span>
+<span class='badge badge-default'>00:00:00:362</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerCity_20240311014641.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerCity_20240311014641.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:41 pm</td>
+        <td>
+          confirmcustomerCity got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:41 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag="RegressionTesttwo"
+          device="">
+          <div class="test-detail">
+            <p class="name">confirmcustomerPinCode</p>
+            <p class="text-sm">
+              <span>1:46:42 pm</span> / <span>00:00:00:380</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">confirmcustomerPinCode</h5>
+<span class='badge badge-success'>03.11.2024 1:46:42 pm</span>
+<span class='badge badge-danger'>03.11.2024 1:46:42 pm</span>
+<span class='badge badge-default'>00:00:00:380</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RegressionTesttwo</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerPinCode_20240311014642.png' src="C:\Users\2304092\Eclipse-New\Hackathon_Bookshelves\screenshotsofReport\confirmcustomerPinCode_20240311014642.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:46:42 pm</td>
+        <td>
+          confirmcustomerPinCode got successfully executed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:46:42 pm</td>
+        <td>
+          this test belong to class:testScenarios.TC_0005_ConfirmingFormDetails
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>14</span>
+</span>
+<p class="name">SmokeTestone</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SmokeTestone</h4>
+<span status="pass" class='badge log pass-bg'>14 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>sendInSearch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:52 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>clicksearch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>closePopUp</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>scrollDown</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>hoverCategory</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>bookshelveCategory</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>hoverToPrice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:45:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>waitPriceSlider</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>slidePriceamount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>hoverSortBy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>sortAccToPrice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>inStock</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>collectingBookShelvesList</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>displayingBookShelves</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">RegressionTestone</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RegressionTestone</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>scrollUp</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>hoverToLiving</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>waitforSubmenu</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>submenuSeatingandChairStoreInExcel</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>displaySubMenuSeatingandChair</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">RegressionTesttwo</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RegressionTesttwo</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>confirmamountEnetered</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>confirmrecipientName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>confirmrecipientEmail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>confirmrecipientMobile</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>confirmcustomerName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>confirmcustomerEmail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>confirmcustomerMobile</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>confirmcustomerCity</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>confirmcustomerPinCode</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>22</span>
+</span>
+<p class="name">SmokeTesttwo</p>
+<p class="duration text-sm">22 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SmokeTesttwo</h4>
+<span status="pass" class='badge log pass-bg'>22 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>scrollPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>clickGiftCardsButton</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>loadTheJSONFile</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>scrollDownToGiftsOptions</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>selectBirthdayOrAnniversary</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>enteringPriceAmount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>clickOnNextbtn</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>enterNameofRecipient</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>enterEmailofRecipient</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>enterMobileofRecipient</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>enterNameofCustomer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>enterEmailofCustomer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>enterMobileNumberofCustomer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>enterAddressofCustomer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>enterPinofCustomerPin</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>enterMessageIfAny</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>clickOnConfirmbtn</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>getErrorMessage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>clearrecipientmail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>enterCorrectDeatils</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>clickConfirmWithcorrectEmail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:46:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>confirmDetails</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 11, 2024 01:45:37 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 11, 2024 01:46:43 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>50</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>50</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>50</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>50</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"sendInSearch":0.757,"clicksearch":0.578,"closePopUp":0.493,"scrollDown":0.446,"hoverCategory":0.372,"bookshelveCategory":0.363,"hoverToPrice":0.515,"waitPriceSlider":0.557,"slidePriceamount":0.366,"hoverSortBy":0.352,"sortAccToPrice":0.396,"inStock":0.29,"collectingBookShelvesList":0.35,"displayingBookShelves":0.346,"scrollUp":0.301,"hoverToLiving":0.3,"waitforSubmenu":0.286,"submenuSeatingandChairStoreInExcel":0.255,"displaySubMenuSeatingandChair":0.236,"scrollPage":0.253,"clickGiftCardsButton":0.615,"loadTheJSONFile":0.674,"scrollDownToGiftsOptions":0.293,"selectBirthdayOrAnniversary":0.348,"enteringPriceAmount":0.329,"clickOnNextbtn":0.381,"enterNameofRecipient":0.225,"enterEmailofRecipient":0.245,"enterMobileofRecipient":0.217,"enterNameofCustomer":0.218,"enterEmailofCustomer":0.304,"enterMobileNumberofCustomer":0.255,"enterAddressofCustomer":0.244,"enterPinofCustomerPin":0.227,"enterMessageIfAny":0.232,"clickOnConfirmbtn":0.139,"getErrorMessage":0.13,"clearrecipientmail":0.177,"enterCorrectDeatils":0.162,"clickConfirmWithcorrectEmail":0.335,"confirmDetails":0.334,"confirmamountEnetered":0.338,"confirmrecipientName":0.359,"confirmrecipientEmail":0.403,"confirmrecipientMobile":0.462,"confirmcustomerName":0.502,"confirmcustomerEmail":0.42,"confirmcustomerMobile":0.389,"confirmcustomerCity":0.362,"confirmcustomerPinCode":0.38
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>SmokeTestone</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>RegressionTestone</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>RegressionTesttwo</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>SmokeTesttwo</td>
+<td>22</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Tester Name</td>
+<td>Rishabh Yadav</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>UrbanLadder</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Bookshelves</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>display bookshelve, GiftCards,Living items</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>2304092</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Operatng System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 50,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 50,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 50
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

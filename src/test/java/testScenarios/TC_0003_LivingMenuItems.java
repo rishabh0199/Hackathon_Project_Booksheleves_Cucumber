@@ -30,7 +30,6 @@ public class TC_0003_LivingMenuItems extends BaseClass{
 		
 		lmp=new LivingSubMenuPage(driver);
 		lmp.scrollPageUp();
-		
 		getLogger().info("**********scrollPageUp() Successfuly passed************");
 	}
 	

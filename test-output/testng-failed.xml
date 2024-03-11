@@ -13,18 +13,8 @@
           <include name="waitforSubmenu"/>
           <include name="driverSetup"/>
           <include name="tearDown"/>
-          <include name="scrollUp"/>
-          <include name="submenuSeatingandChairStoreInExcel"/>
-          <include name="displaySubMenuSeatingandChair"/>
         </methods>
       </class> <!-- testScenarios.TC_0003_LivingMenuItems -->
-      <class name="testScenarios.TC_0004_GiftCards">
-        <methods>
-          <include name="scrollDownToGiftsOptions"/>
-          <include name="driverSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testScenarios.TC_0004_GiftCards -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
